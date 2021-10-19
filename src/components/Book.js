@@ -20,7 +20,9 @@ const Book = ({book ,  changeBookShelf}) => {
                             </div>
                           </div>
                           <div className="book-title">{book.title}</div>
+                          <div className="book-authors">{book.authors}</div>
                           <div className="book-authors">{book.publisher}</div>
+
                         </div>
     )
 }
